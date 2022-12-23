@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "ankipro-extension",
+  "version": "1.0",
+  "browser_action": {
+    "default_title": "Ankipro Add Card",
+    "default_popup": "ankipro.html",
+    "default_icon":"ankipro-logo.png"
+  },
+  "description": "This extension adds a button for displaying an iframe of the ankipro.net website which you could use for creating a new language card",
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ]
+}

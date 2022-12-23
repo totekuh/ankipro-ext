@@ -1,0 +1,15 @@
+html
+body {
+    width: 700px;
+    height: 1100px;
+}
+
+.hidden {
+    display: none;
+}
+
+iframe {
+    resize: both;
+    width: 100%;
+    height: 100%;
+}
